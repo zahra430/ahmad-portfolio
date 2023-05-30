@@ -1,6 +1,26 @@
 h1 {
-  color: red;
+  text-align: left;
+}
+section {
+  display: block;
+  position: fixed;
+  max-width: fit-content;
+  min-width: 100%;
+  margin: 0 auto;
+  padding: 40px 100px;
+  color: #fff;
+  background: rgb(52, 52, 52);
+  text-align: center;
 }
 img {
-  width: 500px;
+  min-width: 100%;
+  margin: 0 auto;
+  display: block;
+  object-fit: cover;
+  height: auto;
+}
+body {
+  background-color: rgb(13, 13, 13);
+  margin: 0 auto;
+  width: 100%;
 }
