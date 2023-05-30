@@ -31,6 +31,11 @@ body {
   margin: 0 auto;
   width: 100%;
 }
+.video {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
 footer {
   position: absolute;
   width: 100%;
