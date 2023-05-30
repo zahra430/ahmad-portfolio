@@ -1,9 +1,9 @@
 header {
+  width: 100%;
   position: fixed;
-  top: 0px;
   margin: 0 auto;
-  padding: 40px 2750px 20px 2750px;
   color: #fff;
+  padding: 40px 0px;
   background: rgb(52, 52, 52, 0.7);
   text-align: center;
   font-size: 50px;
@@ -12,7 +12,7 @@ header {
 section {
   display: block;
   position: fixed;
-  top: 178px;
+  top: 148px;
   min-width: 100%;
   margin: 0 auto;
   padding: 10px 100px;
@@ -26,7 +26,7 @@ body {
   width: 100%;
 }
 img {
-  min-width: 100%;
+  width: 100%;
   margin: 0 auto;
   display: block;
   object-fit: cover;
@@ -56,23 +56,28 @@ footer {
 .update {
   position: inherit;
 
-  left: 140px;
+  left: 150px;
 }
 
 .logo {
-  top: 11px;
-  position: inherit;
-  left: 2600px;
+  position: fixed;
+  display: block;
+  top: 15px;
+  left: 2650px;
+  width: 120px;
 }
 .profile {
   position: inherit;
   left: 5250px;
 }
 .pro-pic {
-  top: 11px;
-  position: inherit;
+  position: fixed;
+  display: block;
+  top: 15px;
   left: 5750px;
+  width: 120px;
 }
+
 .coded {
   padding: 100px;
   text-align: center;
