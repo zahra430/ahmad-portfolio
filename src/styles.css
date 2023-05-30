@@ -13,14 +13,13 @@ section {
   display: block;
   position: fixed;
   top: 148px;
-  min-width: 100%;
+  width: 100%;
   margin: 0 auto;
   padding: 10px 100px;
   color: #fff;
   background: rgb(200, 200, 200);
 }
 body {
-  min-height: 100vh;
   background-color: rgb(13, 13, 13);
   margin: 0 auto;
   width: 100%;
@@ -41,6 +40,7 @@ img {
 footer {
   position: absolute;
   width: 100%;
+  margin: 0 auto;
   padding: 0px 50px 200px 0px;
   font-size: 60px;
   background: rgb(230, 230, 230);
