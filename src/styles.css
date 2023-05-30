@@ -2,11 +2,15 @@ header {
   position: fixed;
   top: 0px;
   width: 100%;
-  padding: 100px 100px;
+  max-width: fit-content;
+  height: 200px;
+  margin: 0 auto;
+  padding: 40px 2750px 20px 2750px;
   color: #fff;
   background: rgb(52, 52, 52, 0.7);
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 section {
   display: block;
@@ -19,6 +23,12 @@ section {
   color: #fff;
   background: rgb(200, 200, 200);
 }
+body {
+  min-height: 100vh;
+  background-color: rgb(13, 13, 13);
+  margin: 0 auto;
+  width: 100%;
+}
 img {
   min-width: 100%;
   margin: 0 auto;
@@ -26,11 +36,7 @@ img {
   object-fit: cover;
   height: auto;
 }
-body {
-  background-color: rgb(13, 13, 13);
-  margin: 0 auto;
-  width: 100%;
-}
+
 .video {
   display: block;
   margin: 0 auto;
@@ -56,16 +62,11 @@ footer {
 
   left: 140px;
 }
-.field {
-  position: inherit;
-
-  left: 2800px;
-}
 
 .logo {
   top: 11px;
   position: inherit;
-  left: 2650px;
+  left: 2600px;
 }
 .profile {
   position: inherit;
