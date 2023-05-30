@@ -1,9 +1,6 @@
 header {
   position: fixed;
   top: 0px;
-  width: 100%;
-  max-width: fit-content;
-  height: 200px;
   margin: 0 auto;
   padding: 40px 2750px 20px 2750px;
   color: #fff;
@@ -16,7 +13,6 @@ section {
   display: block;
   position: fixed;
   top: 178px;
-  max-width: fit-content;
   min-width: 100%;
   margin: 0 auto;
   padding: 10px 100px;
