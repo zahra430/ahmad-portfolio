@@ -31,6 +31,7 @@ section {
 }
 
 img {
+  padding: 10px;
   width: 80%;
   margin: 0 auto;
   display: block;
@@ -51,14 +52,14 @@ img {
 .coded {
   padding: 10px;
   text-align: center;
-  color: rgb(217, 217, 217);
+  color: rgb(244, 244, 244);
   left: 30px;
   font-size: 15px;
 }
 @media only screen and (max-width: 480px) {
   .gmail {
     position: absolute;
-    padding: 0px 20px 0px 50px;
+    padding: 0px 0px 0px 50px;
   }
   .email {
     position: absolute;
@@ -76,11 +77,11 @@ img {
 @media only screen and (min-width: 480px) {
   .gmail {
     position: absolute;
-    padding: 0px 20px 0px 200px;
+    padding: 0px 0px 0px 230px;
   }
   .email {
     position: absolute;
-    padding: 20px 0px 0px 200px;
+    padding: 20px 0px 0px 260px;
   }
   .linkedin {
     position: absolute;
