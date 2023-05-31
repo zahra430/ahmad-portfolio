@@ -16,7 +16,7 @@ img {
   object-fit: cover;
 }
 .bar {
-  position: absolute;
+  position: fixed;
   display: block;
 
   padding: 0px;
