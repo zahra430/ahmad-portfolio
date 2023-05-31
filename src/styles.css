@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(13, 13, 13);
+  background: rgb(200, 200, 200);
   margin: 0 auto;
   padding: 0 px;
 }
@@ -38,34 +38,62 @@ img {
   margin: 0 auto;
   width: 100%;
 }
-footer {
+
+.gmail {
   position: absolute;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0px 50px 200px 0px;
-  font-size: 60px;
-  background: rgb(230, 230, 230);
-  color: rgb(130, 130, 130);
+  font-size: 20px;
+  padding: 100px 200px 0px 200px;
 }
 
-.coded {
-  padding: 100px;
-  text-align: center;
-}
-.gmail {
-  padding: 0px 0px 0px 300px;
-}
-.email {
-  padding: 0px 0px 0px 470px;
-}
-.linkedin {
+.foot {
+  display: inline;
   position: absolute;
-  top: 300px;
-  left: 5000px;
-  text-align: center;
 }
-.researchgate {
-  position: inherit;
-  top: 380px;
-  left: 5000px;
+@media only screen and (max-width: 600px) {
+  .gmail {
+    position: absolute;
+    font-size: 6px;
+    padding: 10px 20px 0px 10px;
+  }
+  .email {
+    position: absolute;
+    font-size: 6px;
+    padding: 0px 20px 0px 10px;
+  }
+  .linkedin {
+    position: absolute;
+    font-size: 6px;
+    padding: 20px 0px 0px 10px;
+    text-align: center;
+  }
+  .researchgate {
+    position: absolute;
+    font-size: 6px;
+    padding: 10px 0px 0px 10px;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .gmail {
+    position: absolute;
+    font-size: 6px;
+    padding: 20px 0px 0px 20px;
+  }
+  .email {
+    position: absolute;
+    font-size: 6px;
+    padding: 7px 20px 0px 41px;
+  }
+
+  .linkedin {
+    position: absolute;
+    font-size: 6px;
+    padding: 20px 0px 0px 20px;
+    text-align: center;
+  }
+  .researchgate {
+    position: absolute;
+    font-size: 6px;
+    padding: 0px 0px 0px 0px;
+  }
 }
