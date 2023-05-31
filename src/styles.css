@@ -85,10 +85,10 @@ img {
   }
   .linkedin {
     position: absolute;
-    padding: 20px 0px 0px 1000px;
+    padding: 20px 0px 0px 800px;
   }
   .researchgate {
     position: absolute;
-    padding: 0px 0px 0px 1000px;
+    padding: 0px 0px 0px 800px;
   }
 }
