@@ -31,20 +31,12 @@ section {
 }
 
 img {
+  padding: 10px;
   width: 80%;
   margin: 0 auto;
   display: block;
   object-fit: cover;
   height: auto;
-}
-img.bar {
-  padding: 0px;
-}
-img.firstpage {
-  padding: 0px;
-}
-.images {
-  padding: 10px;
 }
 
 .video {
