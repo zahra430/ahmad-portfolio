@@ -4,6 +4,7 @@ body {
 }
 article {
   background: rgb(200, 200, 200);
+  margin: 0 auto;
   padding: 0px 0px 50px 0px;
   font-size: 12px;
 }
@@ -42,7 +43,7 @@ img {
 .video {
   display: block;
   margin: 0 auto;
-  width: 100%;
+  width: 79%;
 }
 
 .foot {
@@ -56,39 +57,23 @@ img {
   left: 30px;
   font-size: 15px;
 }
+.researchgate {
+  text-align: center;
+  left: 500px;
+}
+.email {
+  text-align: center;
+  left: 200px;
+}
+.gmail {
+  text-align: center;
+  left: 200px;
+}
+.linkedin {
+  text-align: center;
+  left: 200px;
+}
 @media only screen and (max-width: 480px) {
-  .gmail {
-    position: absolute;
-    padding: 0px 0px 0px 50px;
-  }
-  .email {
-    position: absolute;
-    padding: 10px 0px 0px 50px;
-  }
-  .linkedin {
-    position: absolute;
-    padding: 10px 0px 0px 300px;
-  }
-  .researchgate {
-    position: absolute;
-    padding: 0px 0px 0px 300px;
-  }
 }
 @media only screen and (min-width: 480px) {
-  .gmail {
-    position: absolute;
-    padding: 0px 0px 0px 230px;
-  }
-  .email {
-    position: absolute;
-    padding: 20px 0px 0px 260px;
-  }
-  .linkedin {
-    position: absolute;
-    padding: 20px 0px 0px 800px;
-  }
-  .researchgate {
-    position: absolute;
-    padding: 0px 0px 0px 800px;
-  }
 }
